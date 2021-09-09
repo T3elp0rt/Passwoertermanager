@@ -2,14 +2,14 @@
 public class Passwort {
 
 	
-	String passwort;
+	int passwort;
 	String username;
 	String Website;
 	
 	public String getUser() {
 		return username;
 	}
-	public String getPass() {
+	public int getPass() {
 		return passwort;
 	}
 	public String getWeb() {
@@ -18,7 +18,7 @@ public class Passwort {
 	public void setWeb(String pWeb) {
 		Website = pWeb;
 	}
-	public void setPass(String pPass) {
+	public void setPass(int pPass) {
 		passwort = pPass;
 	}
 	public void setUser(String pUser) {
